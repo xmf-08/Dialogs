@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/my_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Picker Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Picker Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet Dialog"
+            android:backgroundTint="@color/teal_200"/>
+        <Button
+            android:id="@+id/btn_snackbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar Dialog"
+            android:backgroundTint="@color/teal_200"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
